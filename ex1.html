@@ -2,8 +2,18 @@
 <html>
 <head>
 <title>My Web Page</title>
-<script type="text/javascript">
-alert('hello world');
-</script>    
+<script type="text/javascript" src="write_javascript.js"></script>    
 </head>
+<body>
+    <script>
+        days.push('jin');
+        //days[days.length]='jin'; 배열의 끝에 삽입하는 방법중 하나
+        //days.unshif('jin');배열의 앞에 삽입하는 방법
+        
+        for(var i=0; i<days.length; i++){
+            document.write('<p>Today is:'+days[i]+'</p>');
+        }
+        
+    </script>
+</body>
 </html>
